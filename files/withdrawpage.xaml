@@ -1,0 +1,16 @@
+﻿<Page x:Class="bankapp.withdrawpage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:bankapp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="withdrawpage">
+
+    <Grid>
+        <TextBox x:Name="withdrawBox" Height="50" Margin="230,151,230,249" FontSize="30"/>
+        <Button x:Name="withdrawbutton" Width="100" Height="40" FontSize="20" HorizontalAlignment="Center" Margin="0,225,0,185" Click="withdrawbutton_click">Withdraw</Button>
+        <Button x:Name="menubutton" Height="50" Width="100" Margin="20,20,680,380" FontSize="28" Click="menubutton_Click">Menu</Button>
+    </Grid>
+</Page>
